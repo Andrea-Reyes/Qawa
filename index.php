@@ -1,4 +1,4 @@
-<?php require_once "config/conexion.php"; ?>
+<?php require_once "configuraciones/conexion.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,6 @@
     <title>Qawa'</title>
     <link rel="icon" type="image/x-icon" href="imagenes/icono.webp" />
 </head>
-
 
 <body>
     <header class="bg-dark py-5">
