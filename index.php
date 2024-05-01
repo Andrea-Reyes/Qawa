@@ -32,5 +32,8 @@
         ?>
     </div>
 
+    <!-- Botón Carrito -->
+    <a href="#" class="btn-flotante" id="btnCarrito">Carrito <span class="badge bg-success" id="carrito">0</span></a>
+
     <!-- Referencia al footer -->
     <?php include("footer.php"); ?>
