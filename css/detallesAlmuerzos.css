@@ -1,0 +1,60 @@
+.contenedor-detalles-almuerzos {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+h2 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.da-imagen {
+    flex: 0 0 40%;
+    margin: 40px;
+}
+
+.da-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.da-informacion {
+    flex: 1 1 auto; 
+    text-align: center;
+    background-color: rgb(253, 241, 241);
+    padding: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Estilo del nombre */
+.da-nombre {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.da-descripcion {
+    color: #000000;
+    margin-bottom: 10px;
+    font-family:cursive;
+}
+
+.da-precio {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}

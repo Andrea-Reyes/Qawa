@@ -7,24 +7,30 @@
 
 /* Diseño para el header */
 .encabezado {
-    background-color: #773f1e;
-    color: #fff;
+    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
     text-align: center;
-    margin: 0;
-    margin-top: 0;
-    padding: 20px;
+	width: 100%;
+	height: auto;
+	border-radius: 0 0 40% 40% / 50%; 
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
 }
 
 .titulo h1 {
     margin: 0;
+    margin-top: 20px;
     font-size: 60px;
     font-family: cursive;
+    color: white;
 }
 
 .titulo p {
     margin: 0;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
 }
 
 /* Contenedor general */
@@ -86,6 +92,22 @@
     text-align: center;
 }
 
+.btn-detalles {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(+20%);
+    font-family:cursive;
+}
+
 /* Estilo del botón "Agregar" */
 .btn-agregar {
     display: inline-block;
@@ -99,11 +121,15 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-120%);
     font-family:cursive;
 }
 
 .btn-agregar:hover {
+    background-color: #026428;
+}
+
+.btn-detalles:hover {
     background-color: #026428;
 }
 
@@ -128,15 +154,15 @@
 
 /* Diseño para el footer */
 footer {
-    background-color: #773f1e;
+    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Estilo del botón "Carrito" */
+/* Estilo del botón "Pedido" */
 .btn-flotante {
     font-size: 14px;
     color: #ffffff; 
@@ -151,7 +177,7 @@ footer {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     z-index: 99;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn-flotante:hover {
