@@ -1,3 +1,4 @@
+/* Estilo del contenedor general */
 .contenedor-detalles-almuerzos {
     display: flex;
     background-color: #fff;
@@ -16,17 +17,20 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* Estilo del contenedor de la imagen */
 .da-imagen {
     flex: 0 0 40%;
     margin: 40px;
 }
 
+/* Estilo de la imagen */
 .da-imagen img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
+/* Estilo del contenedor de la información */
 .da-informacion {
     flex: 1 1 auto; 
     text-align: center;
@@ -45,12 +49,14 @@ h2 {
     font-size: 16px;
 }
 
+/* Estilo de la descripcion */
 .da-descripcion {
     color: #000000;
     margin-bottom: 10px;
     font-family:cursive;
 }
 
+/* Estilo del precio */
 .da-precio {
     margin-bottom: 30px;
     font-weight: bold;

@@ -92,6 +92,7 @@
     text-align: center;
 }
 
+/* Estilo del botón "Detalles" */
 .btn-detalles {
     display: inline-block;
     padding: 8px 16px;
@@ -152,16 +153,6 @@
     font-family:cursive;
 }
 
-/* Diseño para el footer */
-footer {
-    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
-    color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 /* Estilo del botón "Pedido" */
 .btn-flotante {
     font-size: 14px;
@@ -196,4 +187,14 @@ footer {
         bottom: 20px;
         right: 20px;
     }
+}
+
+/* Diseño para el footer */
+footer {
+    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
+    color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
