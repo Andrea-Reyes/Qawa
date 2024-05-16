@@ -1,0 +1,50 @@
+/* Estilo de la página general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del titulo */
+.formulario h2 {
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Estilo del formulario*/
+#formulario {
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+}
+
+#formulario:target{
+    display: block;
+}
+
+#formulario:target ~ #btn-formulario {
+    display: none;
+    cursor: pointer;
+}
+
+/* Diseño para el footer */
+footer {
+    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
+    color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
