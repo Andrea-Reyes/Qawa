@@ -14,9 +14,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="../css/imagenes/iconoNavegador.png" />
-        <link href="../css/almuerzosAdmin.css" rel="stylesheet" /> 
-        <link rel="stylesheet" href="../css/estilo_flotante.css">
+        <link rel="icon" type="image/x-icon" href="css/imagenes/logo2.webp" />
+        <link href="almuerzosAdmin.css" rel="stylesheet" /> 
         <title>Almuerzos</title>
     </head>
     <body>

@@ -1,20 +1,20 @@
-/* Margenes de la página */
-* {
+/* Ajustes básicos */
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Diseño para el header */
 .encabezado {
-    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
+    background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg') no-repeat center center;
+    background-size: cover;
     text-align: center;
-	width: 100%;
-	height: auto;
-	border-radius: 0 0 40% 40% / 50%; 
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 40% 40% / 50%;
+    position: relative;
+    overflow: hidden;
 }
 
 .titulo h1 {
@@ -33,132 +33,15 @@
     margin-bottom: 20px;
 }
 
-/* Contenedor general */
-.contenedor-almuerzos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 40px;
+.ventana-flotante {
+    /* Estilo de la ventana flotante */
 }
 
-/* Estilo para cada almuerzo */
-.almuerzo {
-    width: calc(27% - 25px); 
-    height: 380px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-/* Estilo de la imagen */
-.almuerzo-imagen {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 10px;
-}
-
-/* Estilo del nombre */
-.almuerzo-nombre {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-}
-
-/* Estilo de la descripcion */
-.almuerzo-descripcion {
-    color: #666;
-    margin-bottom: 10px;
-    font-family:cursive;
-}
-
-/* Estilo del precio */
-.almuerzo-precio {
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-
-/* Estilo del botón "Detalles" */
-.btn-detalles {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #000000;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(+20%);
-    font-family:cursive;
-}
-
-/* Estilo del botón "Agregar" */
-.btn-agregar {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #000000;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-120%);
-    font-family:cursive;
-}
-
-.btn-agregar:hover {
-    background-color: #026428;
-}
-
-.btn-detalles:hover {
-    background-color: #026428;
-}
-
-/* Estilo del botón "Agotado" */
-.btn-agotado {
-    background-color: #e23030;
-    color: #fff;
-    border: none;
-    pointer-events: none;
-    display: inline-block;
-    padding: 8px 16px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family:cursive;
-}
-
-/* Estilo del botón "Pedido" */
 .btn-flotante {
     font-size: 14px;
-    color: #ffffff; 
+    color: #ffffff;
     border-radius: 5px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     background-color: #000000;
     padding: 18px 30px;
     position: fixed;
@@ -168,18 +51,12 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     z-index: 99;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn-flotante:hover {
-    font-size: 14px; 
-    color: #ffffff; 
     background-color: #026428;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    transform: translateY(-7px);
 }
-    
+
 @media only screen and (max-width: 600px) {
     .btn-flotante {
         font-size: 14px;
@@ -189,7 +66,6 @@
     }
 }
 
-/* Diseño para el footer */
 footer {
     background: url('https://www.shutterstock.com/image-photo/close-guatemalan-handmade-textile-antigua-600nw-1422869192.jpg');
     color: #fff;

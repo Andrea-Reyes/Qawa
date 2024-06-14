@@ -125,7 +125,7 @@
     }
 }
 
-/* Botón de incremento y decremento tenga un tamaño adecuado */
+/* Asegúrate de que el botón de incremento y decremento tenga un tamaño adecuado */
 .d-flex .btn-outline-danger,
 .d-flex .btn-outline-success {
     display: inline-flex;
@@ -136,7 +136,7 @@
     padding: 0;
 }
 
-/* Para que el ícono ocupe todo el espacio del botón */
+/* Asegúrate de que el ícono ocupe todo el espacio del botón */
 .d-flex .btn-outline-danger i,
 .d-flex .btn-outline-success i {
     font-size: 1.5em; /* Ajusta el tamaño del ícono según sea necesario */

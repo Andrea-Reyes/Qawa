@@ -1,5 +1,6 @@
 <!-- Conexión con la base de datos -->
 <?php require_once "configuraciones/conexion.php";
+<?php require_once "configuraciones/conexion.php";
 require_once "configuraciones/config.php"; ?>
 
 <!DOCTYPE html>
