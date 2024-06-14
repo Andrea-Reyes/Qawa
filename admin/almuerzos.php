@@ -217,12 +217,12 @@
                     <td><?php echo $data['precio']; ?></td>
                     <td><?php echo $data['cantidad']; ?></td>
 
-                    <!-- Bóton para eliminar-->
+                    <!-- Botón para eliminar -->
                     <td>
-                            <form method="post" action="eliminarAlmuerzo.php?id=<?php echo $data['id']; ?>">
-                                <button class="btn-eliminar" type="submit">Eliminar</button>
-                            </form>
-                        </td>
+                        <form method="post" action="eliminarAlmuerzo.php?id=<?php echo $data['id']; ?>">
+                            <button class="btn-eliminar" type="submit">Eliminar</button>
+                        </form>
+                    </td>
                 </tr>
             <?php } ?>
         </tbody>

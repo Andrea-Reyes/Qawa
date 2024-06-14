@@ -23,7 +23,6 @@
                                 <!-- Botón "Agotado" -->
                                 <button class="btn btn-danger" disabled>Agotado</button>
                             <?php else : ?>
-                                <!-- Botón Agregar -->
                                 <!-- Botón "Detalles" -->
                                 <a href="#detalles" class="btn btn-info" onclick="cargarDetallesAlmuerzo(<?php echo $data['id']; ?>)">Ver Detalles</a>
                             <?php endif; ?>
